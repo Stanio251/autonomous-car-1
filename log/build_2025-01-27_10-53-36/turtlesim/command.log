@@ -1,0 +1,6 @@
+Invoking command in '/home/jakub/programming/nxp_car/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jakub/programming/nxp_car/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/jakub/programming/nxp_car/install/turtlesim
+Invoked command in '/home/jakub/programming/nxp_car/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jakub/programming/nxp_car/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/jakub/programming/nxp_car/install/turtlesim
+Invoking command in '/home/jakub/programming/nxp_car/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jakub/programming/nxp_car/build/turtlesim -- -j12 -l12
+Invoked command in '/home/jakub/programming/nxp_car/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jakub/programming/nxp_car/build/turtlesim -- -j12 -l12
+Invoking command in '/home/jakub/programming/nxp_car/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jakub/programming/nxp_car/build/turtlesim
+Invoked command in '/home/jakub/programming/nxp_car/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jakub/programming/nxp_car/build/turtlesim

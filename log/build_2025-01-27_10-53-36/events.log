@@ -1,0 +1,714 @@
+[0.000000] (-) TimerEvent: {}
+[0.000111] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000146] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.006900] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.007253] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/jakub/programming/nxp_car/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/jakub/programming/nxp_car/install/turtlesim'], 'cwd': '/home/jakub/programming/nxp_car/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jakub'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jakub'), ('OLDPWD', '/home/jakub/programming/nxp_car/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '2517'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jakub'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jakub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jakub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jakub-P53:@/tmp/.ICE-unix/2489,unix/jakub-P53:/tmp/.ICE-unix/2489'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d8a0cf9d_97f3_4382_a45f_ff4491f0fe46'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TJO602'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.146'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jakub/programming/nxp_car/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.096825] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099462] (-) TimerEvent: {}
+[0.179921] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.190014] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199551] (-) TimerEvent: {}
+[0.249649] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.256100] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.256433] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.256927] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.259698] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299675] (-) TimerEvent: {}
+[0.317065] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.323712] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.323933] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.324287] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.327637] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399788] (-) TimerEvent: {}
+[0.442343] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.499910] (-) TimerEvent: {}
+[0.516291] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[0.517964] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.560873] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.565213] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.573359] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.585316] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600034] (-) TimerEvent: {}
+[0.604749] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.661535] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700375] (-) TimerEvent: {}
+[0.720265] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.725664] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.789460] (turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.800424] (-) TimerEvent: {}
+[0.808705] (turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.836895] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.844455] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900530] (-) TimerEvent: {}
+[0.901684] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.901922] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000689] (-) TimerEvent: {}
+[1.003435] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.005554] (turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.061226] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.100805] (-) TimerEvent: {}
+[1.106587] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.117435] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.200919] (-) TimerEvent: {}
+[1.301176] (-) TimerEvent: {}
+[1.374315] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.401289] (-) TimerEvent: {}
+[1.501504] (-) TimerEvent: {}
+[1.601727] (-) TimerEvent: {}
+[1.609282] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.701599] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.701784] (-) TimerEvent: {}
+[1.718659] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.719825] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.740167] (turtlesim) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.740333] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.740384] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.740430] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.756446] (turtlesim) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.799763] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.801888] (-) TimerEvent: {}
+[1.847389] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[1.863267] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/jakub/programming/nxp_car/build/turtlesim\n'}
+[1.872900] (turtlesim) CommandEnded: {'returncode': 0}
+[1.873497] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[1.873525] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jakub/programming/nxp_car/build/turtlesim', '--', '-j12', '-l12'], 'cwd': '/home/jakub/programming/nxp_car/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jakub'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jakub'), ('OLDPWD', '/home/jakub/programming/nxp_car/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '2517'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jakub'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jakub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jakub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jakub-P53:@/tmp/.ICE-unix/2489,unix/jakub-P53:/tmp/.ICE-unix/2489'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d8a0cf9d_97f3_4382_a45f_ff4491f0fe46'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TJO602'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.146'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jakub/programming/nxp_car/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.902057] (-) TimerEvent: {}
+[1.902249] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.909145] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.914860] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_turtlesim\n'}
+[2.002146] (-) TimerEvent: {}
+[2.102397] (-) TimerEvent: {}
+[2.112074] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[2.112516] (turtlesim) StdoutLine: {'line': b'creating turtlesim.egg-info\n'}
+[2.112674] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[2.112817] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[2.112960] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[2.113123] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[2.114916] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[2.115421] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[2.134385] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[2.202475] (-) TimerEvent: {}
+[2.302677] (-) TimerEvent: {}
+[2.402924] (-) TimerEvent: {}
+[2.503185] (-) TimerEvent: {}
+[2.603376] (-) TimerEvent: {}
+[2.703594] (-) TimerEvent: {}
+[2.734510] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__cpp\n'}
+[2.742843] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.743032] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.743135] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.747469] (turtlesim) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o\x1b[0m\n'}
+[2.748162] (turtlesim) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[2.748842] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o\x1b[0m\n'}
+[2.749024] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o\x1b[0m\n'}
+[2.749167] (turtlesim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[2.749369] (turtlesim) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o\x1b[0m\n'}
+[2.750020] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o\x1b[0m\n'}
+[2.750151] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o\x1b[0m\n'}
+[2.803709] (-) TimerEvent: {}
+[2.878593] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[2.903826] (-) TimerEvent: {}
+[2.908144] (turtlesim) StdoutLine: {'line': b'[ 14%] Built target turtlesim__rosidl_generator_c\n'}
+[2.915515] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.915680] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.915772] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.003925] (-) TimerEvent: {}
+[3.104192] (-) TimerEvent: {}
+[3.204458] (-) TimerEvent: {}
+[3.242010] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.242194] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[3.243341] (turtlesim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[3.243480] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[3.243593] (turtlesim) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[3.243702] (turtlesim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[3.247811] (turtlesim) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.304646] (-) TimerEvent: {}
+[3.404915] (-) TimerEvent: {}
+[3.505158] (-) TimerEvent: {}
+[3.570323] (turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.605267] (-) TimerEvent: {}
+[3.619559] (turtlesim) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.638848] (turtlesim) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[3.654766] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[3.654985] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[3.660186] (turtlesim) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[3.662699] (turtlesim) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[3.669267] (turtlesim) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o\x1b[0m\n'}
+[3.676710] (turtlesim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[3.681232] (turtlesim) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[3.697041] (turtlesim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o\x1b[0m\n'}
+[3.705360] (-) TimerEvent: {}
+[3.720418] (turtlesim) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[3.727629] (turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.761401] (turtlesim) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o\x1b[0m\n'}
+[3.766106] (turtlesim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[3.804536] (turtlesim) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.805433] (-) TimerEvent: {}
+[3.868782] (turtlesim) StdoutLine: {'line': b'[ 40%] Built target turtlesim__rosidl_typesupport_c\n'}
+[3.885569] (turtlesim) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.906430] (-) TimerEvent: {}
+[3.911165] (turtlesim) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[4.007104] (-) TimerEvent: {}
+[4.009322] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[4.034130] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[4.035837] (turtlesim) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.077655] (turtlesim) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[4.090318] (turtlesim) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[4.102320] (turtlesim) StdoutLine: {'line': b'[ 47%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[4.107213] (-) TimerEvent: {}
+[4.115657] (turtlesim) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[4.163328] (turtlesim) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[4.207281] (-) TimerEvent: {}
+[4.219801] (turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[4.238857] (turtlesim) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[4.239808] (turtlesim) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[4.244694] (turtlesim) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[4.260704] (turtlesim) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[4.305838] (turtlesim) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[4.307379] (-) TimerEvent: {}
+[4.307604] (turtlesim) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[4.407476] (-) TimerEvent: {}
+[4.418575] (turtlesim) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[4.474277] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[4.477785] (turtlesim) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[4.506156] (turtlesim) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating include/turtlesim/moc_turtle_frame.cpp\x1b[0m\n'}
+[4.507562] (-) TimerEvent: {}
+[4.526425] (turtlesim) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[4.571660] (turtlesim) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.607978] (-) TimerEvent: {}
+[4.610852] (turtlesim) StdoutLine: {'line': b'[ 62%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[4.620262] (turtlesim) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\x1b[0m\n'}
+[4.620471] (turtlesim) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[4.665707] (turtlesim) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[4.669754] (turtlesim) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.708090] (-) TimerEvent: {}
+[4.783672] (turtlesim) StdoutLine: {'line': b'[ 66%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[4.789288] (turtlesim) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o\x1b[0m\n'}
+[4.793797] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[4.808196] (-) TimerEvent: {}
+[4.816788] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[4.817022] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[4.829297] (turtlesim) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o\x1b[0m\n'}
+[4.849732] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\x1b[0m\n'}
+[4.858725] (turtlesim) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[4.903085] (turtlesim) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\x1b[0m\n'}
+[4.908317] (-) TimerEvent: {}
+[5.008860] (-) TimerEvent: {}
+[5.056168] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o\x1b[0m\n'}
+[5.111277] (-) TimerEvent: {}
+[5.126225] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[5.187653] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.211373] (-) TimerEvent: {}
+[5.279870] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o\x1b[0m\n'}
+[5.301915] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[5.311482] (-) TimerEvent: {}
+[5.411763] (-) TimerEvent: {}
+[5.512051] (-) TimerEvent: {}
+[5.609355] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.612155] (-) TimerEvent: {}
+[5.681377] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[5.696428] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim\n'}
+[5.712274] (-) TimerEvent: {}
+[5.712698] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.812366] (-) TimerEvent: {}
+[5.912643] (-) TimerEvent: {}
+[6.012922] (-) TimerEvent: {}
+[6.113195] (-) TimerEvent: {}
+[6.213484] (-) TimerEvent: {}
+[6.313772] (-) TimerEvent: {}
+[6.414091] (-) TimerEvent: {}
+[6.514388] (-) TimerEvent: {}
+[6.614653] (-) TimerEvent: {}
+[6.714926] (-) TimerEvent: {}
+[6.815199] (-) TimerEvent: {}
+[6.915489] (-) TimerEvent: {}
+[7.015776] (-) TimerEvent: {}
+[7.116044] (-) TimerEvent: {}
+[7.216275] (-) TimerEvent: {}
+[7.316550] (-) TimerEvent: {}
+[7.416820] (-) TimerEvent: {}
+[7.517047] (-) TimerEvent: {}
+[7.619010] (-) TimerEvent: {}
+[7.645319] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target turtlesim__py\n'}
+[7.668360] (turtlesim) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[7.668588] (turtlesim) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[7.669174] (turtlesim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[7.669380] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[7.669487] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[7.720281] (-) TimerEvent: {}
+[7.820679] (-) TimerEvent: {}
+[7.834989] (turtlesim) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[7.836605] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[7.842458] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[7.920793] (-) TimerEvent: {}
+[7.998560] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so\x1b[0m\n'}
+[8.020892] (-) TimerEvent: {}
+[8.048745] (turtlesim) StdoutLine: {'line': b'[ 89%] Built target turtlesim__rosidl_generator_py\n'}
+[8.071619] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.071827] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.071940] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.121306] (-) TimerEvent: {}
+[8.221604] (-) TimerEvent: {}
+[8.304755] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.304988] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.307502] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.321705] (-) TimerEvent: {}
+[8.355064] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[8.355283] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[8.357774] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.421815] (-) TimerEvent: {}
+[8.522110] (-) TimerEvent: {}
+[8.622400] (-) TimerEvent: {}
+[8.722683] (-) TimerEvent: {}
+[8.822967] (-) TimerEvent: {}
+[8.923258] (-) TimerEvent: {}
+[9.023533] (-) TimerEvent: {}
+[9.123810] (-) TimerEvent: {}
+[9.224100] (-) TimerEvent: {}
+[9.324396] (-) TimerEvent: {}
+[9.424695] (-) TimerEvent: {}
+[9.525004] (-) TimerEvent: {}
+[9.625284] (-) TimerEvent: {}
+[9.725567] (-) TimerEvent: {}
+[9.825849] (-) TimerEvent: {}
+[9.926122] (-) TimerEvent: {}
+[10.026401] (-) TimerEvent: {}
+[10.126663] (-) TimerEvent: {}
+[10.226944] (-) TimerEvent: {}
+[10.327240] (-) TimerEvent: {}
+[10.427505] (-) TimerEvent: {}
+[10.527775] (-) TimerEvent: {}
+[10.628040] (-) TimerEvent: {}
+[10.728307] (-) TimerEvent: {}
+[10.828575] (-) TimerEvent: {}
+[10.928843] (-) TimerEvent: {}
+[11.029110] (-) TimerEvent: {}
+[11.129384] (-) TimerEvent: {}
+[11.229650] (-) TimerEvent: {}
+[11.267725] (turtlesim) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[11.329751] (-) TimerEvent: {}
+[11.430024] (-) TimerEvent: {}
+[11.508413] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtle_teleop_key\n'}
+[11.530126] (-) TimerEvent: {}
+[11.630404] (-) TimerEvent: {}
+[11.730671] (-) TimerEvent: {}
+[11.830941] (-) TimerEvent: {}
+[11.931211] (-) TimerEvent: {}
+[12.031490] (-) TimerEvent: {}
+[12.131746] (-) TimerEvent: {}
+[12.232011] (-) TimerEvent: {}
+[12.332277] (-) TimerEvent: {}
+[12.432539] (-) TimerEvent: {}
+[12.532800] (-) TimerEvent: {}
+[12.633065] (-) TimerEvent: {}
+[12.733347] (-) TimerEvent: {}
+[12.833611] (-) TimerEvent: {}
+[12.933876] (-) TimerEvent: {}
+[13.034145] (-) TimerEvent: {}
+[13.134425] (-) TimerEvent: {}
+[13.234699] (-) TimerEvent: {}
+[13.334978] (-) TimerEvent: {}
+[13.435254] (-) TimerEvent: {}
+[13.518099] (turtlesim) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[13.535317] (-) TimerEvent: {}
+[13.537663] (turtlesim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[13.635412] (-) TimerEvent: {}
+[13.735685] (-) TimerEvent: {}
+[13.835958] (-) TimerEvent: {}
+[13.904640] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target mimic\n'}
+[13.936084] (-) TimerEvent: {}
+[13.958981] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target draw_square\n'}
+[14.036209] (-) TimerEvent: {}
+[14.136461] (-) TimerEvent: {}
+[14.236708] (-) TimerEvent: {}
+[14.336951] (-) TimerEvent: {}
+[14.437203] (-) TimerEvent: {}
+[14.537458] (-) TimerEvent: {}
+[14.637747] (-) TimerEvent: {}
+[14.737989] (-) TimerEvent: {}
+[14.838241] (-) TimerEvent: {}
+[14.938483] (-) TimerEvent: {}
+[15.038737] (-) TimerEvent: {}
+[15.138980] (-) TimerEvent: {}
+[15.239250] (-) TimerEvent: {}
+[15.339511] (-) TimerEvent: {}
+[15.439751] (-) TimerEvent: {}
+[15.540016] (-) TimerEvent: {}
+[15.640294] (-) TimerEvent: {}
+[15.740535] (-) TimerEvent: {}
+[15.840780] (-) TimerEvent: {}
+[15.941017] (-) TimerEvent: {}
+[16.041269] (-) TimerEvent: {}
+[16.141542] (-) TimerEvent: {}
+[16.241826] (-) TimerEvent: {}
+[16.342111] (-) TimerEvent: {}
+[16.442366] (-) TimerEvent: {}
+[16.542662] (-) TimerEvent: {}
+[16.630832] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[16.642747] (-) TimerEvent: {}
+[16.742987] (-) TimerEvent: {}
+[16.843249] (-) TimerEvent: {}
+[16.943513] (-) TimerEvent: {}
+[17.043776] (-) TimerEvent: {}
+[17.144044] (-) TimerEvent: {}
+[17.244313] (-) TimerEvent: {}
+[17.344585] (-) TimerEvent: {}
+[17.444844] (-) TimerEvent: {}
+[17.545100] (-) TimerEvent: {}
+[17.645391] (-) TimerEvent: {}
+[17.745650] (-) TimerEvent: {}
+[17.845900] (-) TimerEvent: {}
+[17.946155] (-) TimerEvent: {}
+[18.046418] (-) TimerEvent: {}
+[18.146743] (-) TimerEvent: {}
+[18.153199] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[18.163817] (turtlesim) CommandEnded: {'returncode': 0}
+[18.164249] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[18.169987] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jakub/programming/nxp_car/build/turtlesim'], 'cwd': '/home/jakub/programming/nxp_car/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jakub'), ('LC_TIME', 'pl_PL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jakub'), ('OLDPWD', '/home/jakub/programming/nxp_car/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('SYSTEMD_EXEC_PID', '2517'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jakub'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jakub'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/jakub/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jakub-P53:@/tmp/.ICE-unix/2489,unix/jakub-P53:/tmp/.ICE-unix/2489'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d8a0cf9d_97f3_4382_a45f_ff4491f0fe46'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TJO602'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.146'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pl_PL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jakub/programming/nxp_car/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[18.175642] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.175903] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[18.176156] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim\n'}
+[18.176336] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[18.176458] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[18.176506] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[18.176607] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[18.176678] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[18.176743] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[18.176788] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[18.176851] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[18.176896] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[18.176959] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[18.177004] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[18.177061] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[18.177119] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[18.177177] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[18.177268] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[18.177364] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[18.177423] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[18.177481] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[18.177559] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[18.177631] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[18.177689] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[18.177747] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[18.177806] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[18.177864] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[18.177923] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[18.177978] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[18.178035] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[18.178096] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[18.178153] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[18.178209] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[18.178388] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[18.178449] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[18.178509] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[18.178566] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[18.178624] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[18.178685] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[18.178742] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[18.178804] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[18.178872] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[18.178934] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[18.178999] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[18.179061] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[18.179120] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[18.179184] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[18.179273] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[18.179361] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[18.179419] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[18.179542] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[18.179628] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[18.179746] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[18.179994] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/jakub/programming/nxp_car/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[18.180065] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim\n'}
+[18.180132] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[18.180198] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[18.180324] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[18.180372] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[18.180418] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[18.180464] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[18.180534] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[18.180580] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[18.180637] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[18.180684] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[18.180730] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[18.180776] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[18.180843] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[18.180891] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[18.180937] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[18.180997] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[18.181094] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/jakub/programming/nxp_car/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[18.181159] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim\n'}
+[18.181207] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[18.181312] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[18.181360] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[18.181425] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[18.181474] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[18.181538] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp\n'}
+[18.181584] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[18.181648] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[18.181696] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[18.181764] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[18.181809] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[18.181855] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp\n'}
+[18.181921] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp\n'}
+[18.181975] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[18.182039] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[18.182099] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[18.182143] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[18.182208] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[18.182306] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[18.182370] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[18.182438] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[18.182484] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[18.182548] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[18.182595] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[18.182664] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[18.182709] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[18.182754] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp\n'}
+[18.182814] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[18.182879] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[18.182927] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp\n'}
+[18.182991] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[18.183037] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[18.183096] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[18.183156] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[18.183216] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[18.183335] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[18.183395] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[18.183455] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp\n'}
+[18.183512] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[18.183570] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp\n'}
+[18.183629] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[18.183692] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[18.183761] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp\n'}
+[18.183826] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[18.183894] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[18.183962] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[18.184018] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[18.184104] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim\n'}
+[18.184175] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[18.184233] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[18.184334] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[18.184380] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.184449] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[18.184493] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[18.184538] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[18.184583] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.184650] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.184697] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[18.184743] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[18.184788] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[18.184849] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[18.184895] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.184941] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.185007] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.185053] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.185095] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[18.185154] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[18.185529] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/jakub/programming/nxp_car/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[18.185630] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim\n'}
+[18.185685] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[18.185734] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[18.185781] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[18.185864] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[18.185914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[18.185961] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[18.186007] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[18.186053] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[18.186099] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[18.186176] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[18.186230] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[18.186342] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[18.186397] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[18.186442] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[18.186498] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[18.186543] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[18.186588] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[18.186634] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[18.186701] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[18.186749] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[18.186796] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[18.186860] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[18.186908] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[18.186967] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[18.187097] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/jakub/programming/nxp_car/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[18.187155] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[18.187398] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/jakub/programming/nxp_car/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[18.187516] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim\n'}
+[18.187588] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[18.187641] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[18.187690] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[18.187765] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.187815] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[18.187862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[18.187908] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.187954] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[18.188031] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.188087] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[18.188132] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[18.188178] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[18.188357] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.188440] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.188492] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.188559] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[18.188608] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[18.188656] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[18.188701] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.188774] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[18.188823] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[18.188869] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[18.188930] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[18.189095] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/jakub/programming/nxp_car/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[18.189157] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[18.189497] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/jakub/programming/nxp_car/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[18.189573] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[18.189651] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[18.189719] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[18.189796] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[18.189845] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[18.189903] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[18.189969] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[18.190033] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[18.190100] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[18.190145] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[18.190205] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[18.190270] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[18.190330] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[18.190448] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[18.190538] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[18.190649] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[18.190752] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.190857] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[18.190966] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.191031] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.191126] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[18.191195] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[18.191301] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[18.191363] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[18.191422] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[18.191480] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[18.191541] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[18.191600] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[18.191659] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[18.191716] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[18.191774] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[18.191835] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[18.191902] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[18.191967] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[18.192030] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[18.192094] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[18.192161] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[18.192231] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[18.229534] (turtlesim) StdoutLine: {'line': b"Listing '/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[18.229634] (turtlesim) StdoutLine: {'line': b"Compiling '/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...\n"}
+[18.229683] (turtlesim) StdoutLine: {'line': b"Listing '/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[18.229726] (turtlesim) StdoutLine: {'line': b"Compiling '/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...\n"}
+[18.229767] (turtlesim) StdoutLine: {'line': b"Compiling '/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...\n"}
+[18.229812] (turtlesim) StdoutLine: {'line': b"Listing '/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[18.229853] (turtlesim) StdoutLine: {'line': b"Compiling '/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...\n"}
+[18.229893] (turtlesim) StdoutLine: {'line': b"Compiling '/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...\n"}
+[18.229932] (turtlesim) StdoutLine: {'line': b"Compiling '/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...\n"}
+[18.229972] (turtlesim) StdoutLine: {'line': b"Listing '/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[18.230010] (turtlesim) StdoutLine: {'line': b"Compiling '/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...\n"}
+[18.230049] (turtlesim) StdoutLine: {'line': b"Compiling '/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...\n"}
+[18.230091] (turtlesim) StdoutLine: {'line': b"Compiling '/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...\n"}
+[18.230135] (turtlesim) StdoutLine: {'line': b"Compiling '/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...\n"}
+[18.230174] (turtlesim) StdoutLine: {'line': b"Compiling '/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...\n"}
+[18.230213] (turtlesim) StdoutLine: {'line': b"Compiling '/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...\n"}
+[18.233015] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.233328] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[18.233498] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.233723] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[18.233896] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[18.234120] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/jakub/programming/nxp_car/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[18.234192] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[18.234389] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/jakub/programming/nxp_car/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""\n'}
+[18.234494] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[18.234619] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[18.234690] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[18.234759] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[18.234825] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[18.234893] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[18.234956] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[18.235017] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[18.235098] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[18.235180] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[18.235273] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[18.235355] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[18.235435] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[18.235517] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[18.235590] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[18.235672] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[18.235754] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[18.235834] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[18.235918] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[18.235999] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[18.236082] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[18.236165] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[18.236254] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[18.236339] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[18.236419] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[18.236502] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[18.236624] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[18.240637] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/jakub/programming/nxp_car/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[18.240726] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[18.241564] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/jakub/programming/nxp_car/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[18.241641] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/lib/turtlesim/draw_square\n'}
+[18.243510] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/jakub/programming/nxp_car/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[18.243587] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/lib/turtlesim/mimic\n'}
+[18.245302] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/jakub/programming/nxp_car/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[18.245379] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/images\n'}
+[18.245503] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[18.245573] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[18.245738] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[18.245793] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[18.245842] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[18.245890] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[18.246005] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[18.246076] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[18.246130] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[18.246179] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/launch\n'}
+[18.246231] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[18.246303] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[18.246362] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[18.246409] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[18.246476] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[18.246541] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[18.246602] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[18.246660] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[18.246739] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[18.246782] (-) TimerEvent: {}
+[18.246863] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[18.246931] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[18.246991] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/package.dsv\n'}
+[18.247098] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[18.247222] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[18.247314] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[18.247457] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[18.247550] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[18.247619] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[18.247695] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[18.247800] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[18.247899] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[18.247989] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[18.248086] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[18.248196] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[18.248335] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[18.248397] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[18.248504] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[18.248603] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[18.248702] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[18.248801] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[18.248896] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[18.248989] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.249079] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.249171] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[18.249273] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[18.249371] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[18.249457] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[18.249551] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[18.249618] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[18.249709] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jakub/programming/nxp_car/install/turtlesim/share/turtlesim/package.xml\n'}
+[18.251631] (turtlesim) CommandEnded: {'returncode': 0}
+[18.274120] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[18.274367] (-) EventReactorShutdown: {}
