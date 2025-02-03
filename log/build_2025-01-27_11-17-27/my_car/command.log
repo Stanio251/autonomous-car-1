@@ -1,6 +1,0 @@
-Invoking command in '/home/jakub/programming/nxp_car/build/my_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jakub/programming/nxp_car/src/my_car -DCMAKE_INSTALL_PREFIX=/home/jakub/programming/nxp_car/install/my_car
-Invoked command in '/home/jakub/programming/nxp_car/build/my_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jakub/programming/nxp_car/src/my_car -DCMAKE_INSTALL_PREFIX=/home/jakub/programming/nxp_car/install/my_car
-Invoking command in '/home/jakub/programming/nxp_car/build/my_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jakub/programming/nxp_car/build/my_car -- -j12 -l12
-Invoked command in '/home/jakub/programming/nxp_car/build/my_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jakub/programming/nxp_car/build/my_car -- -j12 -l12
-Invoking command in '/home/jakub/programming/nxp_car/build/my_car': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jakub/programming/nxp_car/build/my_car
-Invoked command in '/home/jakub/programming/nxp_car/build/my_car' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jakub/programming/nxp_car/build/my_car

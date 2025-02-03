@@ -1,1 +1,0 @@
-Invoking command in '/home/jakub/programming/nxp_car/build/my_package': /usr/bin/cmake /home/jakub/programming/nxp_car/src/my_package -DCMAKE_INSTALL_PREFIX=/home/jakub/programming/nxp_car/install/my_package

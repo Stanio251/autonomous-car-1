@@ -1,9 +1,0 @@
-/home/jakub/programming/nxp_car/build/my_car/CMakeFiles/uninstall.dir
-/home/jakub/programming/nxp_car/build/my_car/CMakeFiles/my_car_uninstall.dir
-/home/jakub/programming/nxp_car/build/my_car/CMakeFiles/test.dir
-/home/jakub/programming/nxp_car/build/my_car/CMakeFiles/edit_cache.dir
-/home/jakub/programming/nxp_car/build/my_car/CMakeFiles/rebuild_cache.dir
-/home/jakub/programming/nxp_car/build/my_car/CMakeFiles/list_install_components.dir
-/home/jakub/programming/nxp_car/build/my_car/CMakeFiles/install.dir
-/home/jakub/programming/nxp_car/build/my_car/CMakeFiles/install/local.dir
-/home/jakub/programming/nxp_car/build/my_car/CMakeFiles/install/strip.dir
