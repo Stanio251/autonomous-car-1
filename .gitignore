@@ -1,0 +1,9 @@
+# not add files created with "colcon build"
+build/
+log/
+install/
+
+# No file from IDEs
+__pycache__/
+.vscode/
+
